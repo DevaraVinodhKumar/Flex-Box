@@ -1,0 +1,44 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    background-color: #f6f6f6;
+}
+#flex{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+   
+}
+.flex-box{
+    width: 32%;
+    margin: 10px;
+    padding: 10px;
+    border: #f6f6f6 1px solid;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+img{
+    width: 100%;
+}
+.shiva{
+    font-weight: 700 ;
+}
+h3{
+    margin: 20px;
+}
+p::before{
+  content: "";
+  width: 3px;
+  height: 12px;
+  display: inline-block;
+  margin-left: 15px;
+  margin-right: 25px;
+  background-color: red;
+  border-radius: 5px;
+}
+p{
+   text-transform: uppercase;
+   margin: 20px;
+}
